@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="app-root">
       <Helmet>
-        <title>XYZ — All IT Tech Skill</title>
-        <meta name="description" content="XYZ: Full-stack development, cloud, DevOps, AI and mobile solutions. 6+ years experience." />
+        <title>Dragon Infosolution — All IT Tech Skill</title>
+        <meta name="description" content="Dragon Infosolution: Full-stack development, cloud, DevOps, AI and mobile solutions. 6+ years experience." />
       </Helmet>
 
       <Header />

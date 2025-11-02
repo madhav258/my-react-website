@@ -7,7 +7,7 @@ export default function Home(){
       <div className="container">
         <div style={{display:'grid',gridTemplateColumns:'1fr 420px',gap:28,alignItems:'center',padding:'40px 0 20px'}}>
           <div>
-            <motion.h1 initial={{opacity:0,y:-10}} animate={{opacity:1,y:0}} transition={{duration:0.6}} style={{fontSize:34,margin:0}}>XYZ</motion.h1>
+            <motion.h1 initial={{opacity:0,y:-10}} animate={{opacity:1,y:0}} transition={{duration:0.6}} style={{fontSize:34,margin:0}}>Dragon Infosolution</motion.h1>
             <p className="text-muted mt-8">All IT Tech Skill — 6+ yrs experience delivering web, cloud, mobile, data & DevOps solutions.</p>
 
             <div style={{marginTop:24,display:'flex',gap:12}}>

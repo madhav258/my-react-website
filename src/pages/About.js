@@ -4,7 +4,7 @@ export default function About(){
   return (
     <section className="section">
       <div className="container">
-        <h2>About XYZ</h2>
+        <h2>About Dragon Infosolution</h2>
         <p className="text-muted mt-8">We are a results-driven team focused on building reliable, secure and scalable digital products. With 6+ years of experience we help companies move from prototypes to production, and maintain long-term solutions.</p>
 
         <div className="mt-8 grid grid-cols-3">

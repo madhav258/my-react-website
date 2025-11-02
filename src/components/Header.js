@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between',padding:'18px 0'}}>
         <div style={{display:'flex',alignItems:'center',gap:12}}>
           <div style={{width:48,height:48,background:'linear-gradient(135deg,#ff7a18,#af002d)',borderRadius:12,display:'flex',alignItems:'center',justifyContent:'center',color:'white',fontWeight:700}}>DI</div>
-          <Link to="/" style={{fontWeight:700,fontSize:18,color:'var(--brand)'}}>XYZ</Link>
+          <Link to="/" style={{fontWeight:700,fontSize:18,color:'var(--brand)'}}>Dragon Infosolution</Link>
         </div>
 
         <nav className="nav">

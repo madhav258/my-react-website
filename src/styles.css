@@ -1,19 +1,27 @@
 /* Tailwind preflight + minimal fallback so the app looks good even if Tailwind isn't setup */
+body {
+  background: #000 !important;
+}
+body, html, * {
+  color: #1976d2 !important; /* Blue shade, or use your preferred blue hex */
+}
+
+
 :root{--brand:#0f172a;--accent:#7c3aed}
 *{box-sizing:border-box}
 html,body,#root{height:100%}
 body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;margin:0;background:#f8fafc;color:#0f172a}
 .container{max-width:1100px;margin:0 auto;padding:0 20px}
-.header{background:white;border-bottom:1px solid #e6eef5}
+.header{background:black;border-bottom:1px solid #e6eef5}
 .nav{display:flex;gap:18px;align-items:center}
 .btn{display:inline-block;padding:10px 18px;border-radius:10px;text-decoration:none}
-.btn-primary{background:var(--brand);color:white}
-.card{background:white;border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(16,24,40,0.06);border:1px solid #eef2f7}
+
+
 .section{padding:60px 0}
 .grid{display:grid;gap:20px}
 .grid-cols-3{grid-template-columns:repeat(3,1fr)}
-.footer{background:#0b1220;color:#cbd5e1;padding:36px 0;text-align:center}
-@media (max-width:768px){.grid-cols-3{grid-template-columns:1fr}}
+
+
 
 /* Simple utilities for spacing */
 .mt-8{margin-top:2rem}
